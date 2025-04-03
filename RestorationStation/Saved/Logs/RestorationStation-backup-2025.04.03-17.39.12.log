@@ -1,0 +1,78 @@
+﻿Log file open, 04/03/25 12:39:01
+LogWindows: Failed to load 'aqProf.dll' (GetLastError=126)
+LogWindows: File 'aqProf.dll' does not exist
+LogProfilingDebugging: Loading WinPixEventRuntime.dll for PIX profiling (from ../../../Engine/Binaries/ThirdParty/Windows/WinPixEventRuntime/x64).
+LogWindows: Failed to load 'VtuneApi.dll' (GetLastError=126)
+LogWindows: File 'VtuneApi.dll' does not exist
+LogWindows: Failed to load 'VtuneApi32e.dll' (GetLastError=126)
+LogWindows: File 'VtuneApi32e.dll' does not exist
+LogWindows: Started CrashReportClient (pid=6228)
+LogWindows: Warning: Failed to set completion port for job object "UE.ShaderCompileWorker.JobGroup": The parameter is incorrect.
+LogWindows: Custom abort handler registered for crash reporting.
+LogInit: Display: Running engine for game: RestorationStation
+LogCore: UTS: Unreal Trace Server launched successfully
+LogTrace: Initializing trace...
+LogCore: Display: Requested channels: 'cpu,gpu,frame,log,bookmark,screenshot,region'
+LogTrace: Display: Display Control listening on port 39627
+LogTrace: Finished trace initialization.
+LogCsvProfiler: Display: Metadata set : platform="Windows"
+LogCsvProfiler: Display: Metadata set : config="Development"
+LogCsvProfiler: Display: Metadata set : buildversion="++UE5+Release-5.5-CL-39772772"
+LogCsvProfiler: Display: Metadata set : engineversion="5.5.3-39772772+++UE5+Release-5.5"
+LogCsvProfiler: Display: Metadata set : os="Windows 11 (23H2) [10.0.22631.5039] "
+LogCsvProfiler: Display: Metadata set : cpu="GenuineIntel|Intel(R) Xeon(R) Silver 4214R CPU @ 2.40GHz"
+LogCsvProfiler: Display: Metadata set : pgoenabled="0"
+LogCsvProfiler: Display: Metadata set : pgoprofilingenabled="0"
+LogCsvProfiler: Display: Metadata set : ltoenabled="0"
+LogCsvProfiler: Display: Metadata set : asan="0"
+LogCsvProfiler: Display: Metadata set : commandline="" E:/GitHub/RestorationStation/RestorationStation/RestorationStation.uproject -AUTH_LOGIN=unused -AUTH_PASSWORD=a4f66deaef5b42f0b0eec8b46e0fdfad -AUTH_TYPE=exchangecode -epicapp=UE_5.5 -epicenv=Prod -EpicPortal -epicusername=Abyssalarrg -epicuserid=5dbf82ed3bc74ac29b691e5d91781710 -epiclocale=en -epicsandboxid=ue""
+LogCsvProfiler: Display: Metadata set : loginid="b86869484b68bfc968c17a8ea64be159"
+LogCsvProfiler: Display: Metadata set : llm="0"
+LogStats: Stats thread started at 0.666114
+LogIris: FNetObjectFactoryRegistry::UnregisterFactory is unregistering factory: None name: NetActorFactory id: 0
+LogIris: FNetObjectFactoryRegistry::UnregisterFactory is unregistering factory: None name: NetSubObjectFactory id: 1
+LogICUInternationalization: ICU TimeZone Detection - Raw Offset: -6:00, Platform Override: ''
+LogInit: Session CrashGUID >====================================================
+         Session CrashGUID >   UECC-Windows-0D97C5ED4689EA304A067EB06473EA14
+         Session CrashGUID >====================================================
+LogConfig: No local boot hotfix file found at: [E:/GitHub/RestorationStation/RestorationStation/Saved/PersistentDownloadDir/HotfixForNextBoot.txt]
+LogAudio: Display: Pre-Initializing Audio Device Manager...
+LogAudio: Display: AudioInfo: 'OPUS' Registered
+LogAudioDebug: Display: Lib vorbis DLL was dynamically loaded.
+LogAudio: Display: AudioInfo: 'OGG' Registered
+LogAudio: Display: AudioInfo: 'ADPCM' Registered
+LogAudio: Display: AudioInfo: 'PCM' Registered
+LogAudio: Display: AudioInfo: 'BINKA' Registered
+LogAudio: Display: AudioInfo: 'RADA' Registered
+LogAudio: Display: Audio Device Manager Pre-Initialized
+LogPluginManager: Looking for build plugins target receipt
+LogPluginManager: Unable to find target receipt in path: E:/GitHub/RestorationStation/RestorationStation/Binaries/Win64/*.target
+LogConfig: Display: Loading IOS ini files took 0.49 seconds
+LogConfig: Display: Loading Mac ini files took 0.49 seconds
+LogConfig: Display: Loading Android ini files took 0.50 seconds
+LogConfig: Display: Loading VulkanPC ini files took 0.50 seconds
+LogConfig: Display: Loading TVOS ini files took 0.51 seconds
+LogConfig: Display: Loading Unix ini files took 0.51 seconds
+LogConfig: Display: Loading VisionOS ini files took 0.51 seconds
+LogConfig: Display: Loading Windows ini files took 0.51 seconds
+LogConfig: Display: Loading LinuxArm64 ini files took 0.52 seconds
+LogConfig: Display: Loading Linux ini files took 0.52 seconds
+LogPluginManager: Found matching target receipt: ../../../Engine/Binaries/Win64/UnrealEditor.target
+LogPluginManager: Looking for enabled plugins target receipt
+LogPluginManager: Unable to find target receipt in path: E:/GitHub/RestorationStation/RestorationStation/Binaries/Win64/*.target
+LogPluginManager: Found matching target receipt: ../../../Engine/Binaries/Win64/UnrealEditor.target
+Message dialog closed, result: No, title: Missing Plugin, text: This project requires the 'PaperZD' plugin, which could not be found. Would you like to disable it and continue?
+
+If you do, you will no longer be able to open any assets created with it. If not, the application will close.
+LogPluginManager: Error: Unable to load plugin 'PaperZD'. It was requested by Enabled plugins in .uproject for , but is missing on disk. Aborting. Looked in these locations for .uplugin files:
+	PluginsDir: C:/Program Files/Epic Games/UE_5.5/Engine/Plugins
+	PluginsDir: E:/GitHub/RestorationStation/RestorationStation/Mods/
+LogCore: Engine exit requested (reason: EngineExit() was called)
+LogAudio: Display: Beginning Audio Device Manager Shutdown (Module: )...
+LogAudio: Display: Audio Device Manager Shutdown
+LogExit: Preparing to exit.
+LogIris: FNetObjectFactoryRegistry::UnregisterFactory is unregistering factory: None name: NetActorFactory id: 0
+LogIris: FNetObjectFactoryRegistry::UnregisterFactory is unregistering factory: None name: NetSubObjectFactory id: 1
+LogPakFile: Destroying PakPlatformFile
+LogExit: Exiting.
+Log file closed, 04/03/25 12:39:10

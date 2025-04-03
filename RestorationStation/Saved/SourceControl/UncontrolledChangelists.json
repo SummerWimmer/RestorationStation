@@ -1,0 +1,16 @@
+{
+	"version": 1,
+	"changelists": [
+		{
+			"guid": "00000000000000000000000000000000",
+			"description": "Default Uncontrolled Changelist",
+			"files": [
+				"E:/GitHub/RestorationStation/RestorationStation/Content/Tilesets/Farm/farm_TileSet.uasset",
+				"E:/GitHub/RestorationStation/RestorationStation/Content/Tilesets/Farm/farm_TileMap.uasset",
+				"E:/GitHub/RestorationStation/RestorationStation/Content/Blueprints/Character/BP_Char.uasset",
+				"E:/GitHub/RestorationStation/RestorationStation/Content/Overworld.umap",
+				"E:/GitHub/RestorationStation/RestorationStation/Content/Tilesets/Character/Character.uasset"
+			]
+		}
+	]
+}
