@@ -1,0 +1,2 @@
+/Game/Blueprints/Inventory/UI/W_InventorySlot.Default__W_InventorySlot_C
+/Game/Blueprints/Inventory/UI/W_InventorySlot.W_InventorySlot_C

@@ -1,0 +1,2 @@
+/Game/Blueprints/Inventory/UI/W_DragPreview.Default__W_DragPreview_C
+/Game/Blueprints/Inventory/UI/W_DragPreview.W_DragPreview_C
